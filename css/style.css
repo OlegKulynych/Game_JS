@@ -1,0 +1,40 @@
+body{
+	background-image: url(style_img/bg_main.jpg);
+}
+
+canvas {
+  border: 5px double black;
+}
+.maindiv {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 700px);
+}
+.info{
+	border: 3px dashed black;
+}
+h2{
+	margin-left: 20px;
+	font-family: Times, Times New Roman, serif;
+	font-size: 12pt;
+}
+input{
+	margin-left: 20px; 
+}
+
+h1{
+	text-align: center;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-size: 25pt;
+}
+
+p{
+	margin-left: 20px; 
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 9pt;
+}
+.start_b{
+	background-color: #818181;
+	border-radius: 2px;
+	padding: 6px 25px;
+	border: 2px gray ridge;
+}
