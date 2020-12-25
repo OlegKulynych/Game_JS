@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>BallGame</title>
+  <link rel="stylesheet" href="css\style.css">
+  <script src="js/js.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Ball Game</h1>
+	</header>
+	<div class = "maindiv">
+		<canvas id="myCanvas"  width="600" height="600"></canvas>
+		<div class = "info">
+      <div class="input_info">
+        <h2 class = "name_player">Введіть ім'я гравця</h2>
+        <input type = 'text' class = "input_name_player">
+        <h2 class = "number_balls">Введіть к-сть кульок</h2>
+        <input type = 'text' class = "input_number_balls" title = "Введіть число" pattern="^[0-9]+$">  
+        <h2 class="max_speed">Введіть максимальну швидкість кульок</h2>
+        <input type = 'text' class = "input_speed_balls" title = "Введіть число" pattern="^[0-9]+$">
+        <h2 class = "min_size">Введіть мінімальний розмір кульок</h2>
+        <input type = 'text' class = "input_min_size" title = "Введіть число" pattern="^[0-9]+$">
+        <h2 class="max_speed">Введіть максимальний розмір кульок</h2>
+        <input type = 'text' class = "input_max_size" title = "Введіть число" pattern="^[0-9]+$">
+        <h2 class="player_size">Введіть розмір гравця</h2>
+        <input type = 'text' class = "input_size_player" title = "Введіть число" pattern="^[0-9]+$">
+        <button class= "start_b" onclick="init()">Start game</button>
+      </div>
+			<div class="instruction">
+        <p>Хей, Привіт, зараз я розкажу, що тут до чого. Твоя ціль - це збирати різнокольорові кульки, але попереджаю - ніколи не чіпай кульки чорного кольору(я не расист, це просто по стандарту, що чорне означає "погано"). Тут ти бачиш поля для вводу, в які потрібно ввести дані. З кожним наступним рівнем к-сть ворогів буде збільшуватись на 1, це для того, щоб не розслаблявся. А тепер по гарячих клавішах:</p>
+        <p>P - це для того, щоб поставити на паузу, і так само нажати на цю клавішу, щоб розморозити гру.</p>
+        <p>S - зберегти гру в Local Storage</p>
+        <p>R - відтворення гри із Local Storage</p>
+        <p>C - для очистки нашого Local Storage</p>
+        <p>На цьому в мене все. Wake up, Samurai. We have a city to burn.GL HF</p>
+      </div>
+		</div>
+	</div>
+</body>
+</html>
